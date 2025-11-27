@@ -50,7 +50,7 @@ export default function Gallery() {
         <div className="nav-right">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About Us</Link>
-          <Link to="/contact" className="nav-link">Contact</Link>
+          <Link to="/contact" className="nav-link">Contact Us</Link>
           <Link to="/login" className="nav-link">Login</Link>
           <Link to="/register" className="nav-link">Register</Link>
         </div>
