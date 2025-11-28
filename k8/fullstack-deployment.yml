@@ -87,7 +87,7 @@ spec:
     - protocol: TCP
       port: 2200
       targetPort: 2200
-      nodePort: 32494        # Optional fixed NodePort (range 30000–32767)
+      nodePort: 32444        # Optional fixed NodePort (range 30000–32767)
   type: NodePort
 ---
 # ===========================
@@ -127,5 +127,5 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 32420       # Optional fixed NodePort (range 30000–32767)
+      nodePort: 32422      # Optional fixed NodePort (range 30000–32767)
   type: NodePort
